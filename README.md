@@ -8,4 +8,4 @@ Thanks!
 
 ### App preview
 
-[TODO_App](https://raw.githubusercontent.com/imatos/react-todo/master/screenshots/todo_app.png)
+![TODO_App](https://raw.githubusercontent.com/imatos/react-todo/master/screenshots/todo_app.png)
