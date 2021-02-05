@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  max-height: 80vh;
+  min-width: 50vh;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 4px 0 rgb(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  min-height: 65px;
+  color: #666afb;
+  background-color: #fbfbff;
+  border-bottom: 1px solid #e0e9f1;
+  font-family: serif;
+}
+
+.header .main-title {
+  font-weight: bold;
+}
+
+.content {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  flex-grow: 1;
+}
+
+.content .todo-list-container {
+  height: 100%;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.footer {
+  background-color: #fbfbff;
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 45px;
+  border-top: 1px solid #e0e9f1;
+}
+
+.footer .progress-bar-base {
+  height: 18px;
+  margin-right: 12px;
+  border-radius: 10px;
+  background-color: rgba(110, 110, 110, 0.3);
+  flex-grow: 1;
+}
+
+.footer .progress-bar {
+  height: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(83, 82, 82, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}

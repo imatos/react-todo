@@ -1,0 +1,25 @@
+.todo-container {
+  position: relative;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  border: 1px solid #c8c6c6;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.todo-container:hover {
+  cursor: pointer;
+  background-color: #b885ff;
+}
+
+.completed {
+  opacity: 0.3;
+  text-decoration: line-through;
+}
